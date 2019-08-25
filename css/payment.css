@@ -1,0 +1,151 @@
+.payment {
+    margin-top: 40px;
+}
+
+.payment-container {
+    background: #fff;
+    border-radius: 40px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.payment-doctor-img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    max-width: 150px;
+    height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background: url(../images/person.jpg) no-repeat center;
+    background-size: cover;
+    margin: auto;
+}
+
+.doctor-payment-name {
+    font-size: 25px;
+    text-align: left;
+    color: #c7c7c7;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.doctor-payment-name span {
+    color: #fb9090;
+}
+.doctor-payment-title {
+    text-align: left;
+    color: #c7c7c7;
+    margin: 10px auto;
+}
+.doctor-payment-booking-details {
+    text-align: left;
+    margin: 20px auto;
+    color: #c7c7c7;
+}
+.doctor-payment-booking-details img {
+    max-width: 20px;
+    margin-right: 5px;
+}
+.doctor-payment-booking-details span {
+    color: #ff8787;
+    font-weight: bold;
+}
+.doctor-payment-available-time {
+    color: #ff8787;
+    font-size: 18px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.doctor-profile-booking-head {
+    background: #ff8787;
+    color: #fff;
+    margin: -20px -50px 0;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    line-height: 3;
+    font-size: 17px;
+    text-align: center;
+}
+.payment-form {
+    background: #fff;
+    border-radius: 40px;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    min-height: 570px;
+}
+
+.payment-form .form-group {
+    margin-top: 40px;
+}
+
+.payment-label {
+    max-width: 30px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #ff8787;
+    font-size: 29px;
+}
+.payment-input {
+    border-radius: 20px;
+}
+.payment-input::placeholder {
+    color: #ccc;
+}
+.payment-methods {
+    color: #ff8787;
+    font-size: 18px;
+    margin: 45px auto 0;
+    text-align: center
+}
+
+.payment-btn {
+    background: #62d6af;
+    color: #fff !important;
+    font-size: 15px;
+    width: 250px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 7px;
+}
+.payment-methods-methods {
+    width: 50%;
+    margin: auto;
+}
+@media (max-width: 1199px) {
+    .payment-doctor-img {
+        width: 120px;
+        max-width: 120px;
+        height: 120px;
+        max-height: 120px;
+    }
+}
+@media (max-width: 767px) {
+    .payment-methods-methods {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px)  {
+    .payment-form {
+        padding: 20px 15px;
+    }
+    .payment-label {
+        font-size: 29px;
+        max-width: 19px;
+        margin-left: auto;
+    }
+    .doctor-profile-booking-head {
+        margin: -20px -15px 0;
+    }
+    .payment-form .form-group {
+        margin-top: 25px;
+    }
+}
