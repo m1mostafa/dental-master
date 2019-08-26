@@ -106,7 +106,7 @@ body{
     padding: 3px;
 }
 
-.dropdown-menu{
+.top__header .dropdown-menu{
     top: 59px !important;
 }
 
@@ -132,6 +132,7 @@ body{
     height: 25px; 
     margin-right: 8px;
 }
+
 
 
 
@@ -250,6 +251,44 @@ body{
 .header-info .btn:hover{
     background-color: transparent;
     color: #ff8787;
+}
+
+.header-dropdown-btn {
+    margin: auto !important;
+    background: transparent !important;
+    border: 0 !important;
+    color: #495057 !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    border-left: 2px solid #9a0000 !important;
+    border-radius: 0;
+}
+.header-dropdown-btn i {
+    color: #ff8787;
+}
+.header-dropdown-btn.no-border {
+    border: 0!important;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+}
+.header-dropdown-btn.no-border:focus {
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+}
+.header-dropdown-btn:focus {
+    background: #dbe8f6!important;
+    outline: none;
+    box-shadow: none !important;
+}
+.header-dropdown-main {
+    min-width:280px;
+}
+.header-dropdown-main-ul {
+    columns: 2;
 }
 
 .header-info .fas{margin-right: 10px;}
@@ -1073,7 +1112,60 @@ h2{
     margin-bottom: 12px;
 }
 
+.my-prescription-edit-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+.my-prescription-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d7d7d7;
+}
+.my-prescription-img span:last-of-type {
+    display: inline-block;
+    margin-left: 3px;
+}
+.my-prescription-img span:first-of-type{
+    background: url(../images/person.jpg) no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #fb9090;
+    margin-right: 15px;
+}
+.my-prescription-model-content {
+    padding: 50px 80px 100px;
+}
+.my-prescription-modal-head {
+    display: flex;
+    align-items: center;
+    background: #fb9090;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    color: #fff;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+.my-prescription-modal-input {
+    color: #d7d7d7;
+    border-radius: 8px;
+    height: calc(1.3em + .75rem + 2px);
+}
+.my-prescription-modal-input::placeholder {
+    color: #d7d7d7;
+}
+@media (max-width: 576px) {
+    .my-prescription-model-content {
+        padding:25px 35px 70px
+    }
+}
 /************************  prescription page ************************/
 
 /************************  Appointments ************************/

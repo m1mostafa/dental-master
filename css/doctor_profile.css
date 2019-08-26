@@ -270,6 +270,35 @@
 }
 
 
+.rating-stars ul > li.star {
+    display: inline-block;
+}
+.rating-stars ul > li.star > i.fa {
+    font-size: 2.5em;
+    color: #ccc;
+}
+
+.rating-stars ul > li.star.selected > i.fa {
+    color: #FF912C;
+}
+
+
+.rating-stars ul > li.star.hover > i.fa {
+    color: #FFCC36;
+}
+.doctor-profile-comments-btn {
+    background: #62d6af;
+    color: #fff !important;
+    border-radius: 0;
+    width: 120px;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.doctor-profile-comments-textarea {
+    resize: none;
+    border-radius: 0;
+}
 /*======================================================*/
 /*Start Media */
 @media (max-width: 1199px) {
