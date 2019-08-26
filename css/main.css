@@ -1602,7 +1602,10 @@ h2{
     font-size: 16px;
 }
 
-.form_filter form{margin: 40px 8px;}
+.form_filter form{
+    margin: 40px auto;
+    padding: 0 8px;
+}
 
 .form_filter .parent {
     padding-left: 30px;
@@ -1625,7 +1628,43 @@ h2{
 .slidecontainer {
     width: 100%; /* Width of the outside container */
   }
-  
+
+
+.noUi-horizontal {
+    height: 3px;
+    border: 0;
+}
+.noUi-horizontal .noUi-handle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    top: -8px;
+
+}
+html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
+    right: -8px;
+}
+.noUi-horizontal .noUi-handle:after ,
+.noUi-horizontal .noUi-handle:before {
+    display: none;
+}
+.noUi-touch-area {
+    border: 2px solid #fb9090;
+    border-radius: 50%;
+}
+.noUi-connect {
+    background: #fb9090
+}
+.adv-price-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    color: #fb9090;
+}
+html:not([dir=rtl]) .noUi-horizontal .noUi-handle:focus {
+    outline: none;
+}
   /* The slider itself */
   .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
