@@ -23,7 +23,10 @@ $("#imgsDisplay").on("click" , function () {
     $(".doctor-profile-imgs-container").removeClass("d-none");
     $(this).removeClass("display");
 });
-
+$(".doctor-profile-heart").on("click" , function () {
+    console.log(1);
+   $(this).toggleClass("active");
+});
 
 
 

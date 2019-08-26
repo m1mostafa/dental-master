@@ -44,6 +44,10 @@
     justify-content: center;
     margin: auto;
     font-size: 35px;
+    cursor: pointer;
+}
+.doctor-profile-heart.active {
+    color: #d23838;
 }
 .doctor-profile-name {
     font-size: 25px;
@@ -171,6 +175,17 @@
     background: #fbfbfb;
     border-radius: 30px;
 }
+.doctor-profile-container .offer.offline .top h5 ,.doctor-profile-container .offer.offline .top{
+    background: #c8c8c8;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.doctor-profile-container .offer.offline .bottom h5 ,.doctor-profile-container .offer.offline .bottom  {
+    background: #c8c8c8;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 .doctor-profile-container .offer .top h5{
     background: #98c68d;
     color: #fff;
@@ -188,6 +203,16 @@
 }
 .doctor-profile-container .offer ul li {
     line-height: 2.5;
+}
+.doctor-profile-container .offer ul li:hover {
+    background: #0070cd;
+    color: #fff;
+    cursor: pointer;
+}
+.doctor-profile-container .offer.offline ul li:hover {
+    background: #fff;
+    color: #c8c8c8;
+    cursor: inherit;
 }
 
 .doctor-profile-container .offer .bottom {
